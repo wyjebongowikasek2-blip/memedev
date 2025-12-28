@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MemeDev</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{box-sizing:border-box}
+body{
+margin:0;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:radial-gradient(circle at top,#0f3d2e,#000);
+font-family:"Courier New",monospace;
+color:#b6ffe0;
+}
+
+/* CARD */
+.card{
+width:360px;
+padding:26px;
+border-radius:22px;
+background:rgba(0,0,0,.8);
+border:1px solid #00ff88;
+box-shadow:0 0 40px #00ff88;
+}
+
+/* AVATAR */
+.avatar-wrap{
+display:flex;
+justify-content:center;
+margin-top:-70px;
+}
+.avatar{
+width:120px;
+height:120px;
+border-radius:50%;
+border:4px solid #00ff88;
+object-fit:cover;
+background:#000;
+box-shadow:0 0 25px #00ff88;
+}
+
+/* TEXT */
+h1{
+margin:14px 0 4px;
+text-align:center;
+font-size:28px;
+}
+.handle{
+text-align:center;
+opacity:.7;
+font-size:13px;
+margin-bottom:14px;
+}
+.bio{
+text-align:center;
+font-size:14px;
+margin-bottom:18px;
+}
+
+/* SECTIONS */
+.section{
+margin-top:18px;
+}
+.section h3{
+font-size:13px;
+letter-spacing:2px;
+color:#00ff88;
+margin-bottom:8px;
+}
+
+/* ABOUT */
+.about{
+font-size:14px;
+line-height:1.5;
+}
+
+/* SKILLS */
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+}
+.skill{
+padding:6px 12px;
+border-radius:999px;
+border:1px solid #00ff88;
+font-size:12px;
+}
+
+/* LINKS */
+.links a{
+display:block;
+margin-top:10px;
+padding:14px;
+text-align:center;
+border-radius:12px;
+background:#00ff88;
+color:#000;
+font-weight:bold;
+text-decoration:none;
+transition:.2s;
+}
+.links a:hover{
+box-shadow:0 0 20px #00ff88;
+transform:translateY(-2px);
+}
+
+/* FOOTER */
+.footer{
+margin-top:18px;
+font-size:11px;
+text-align:center;
+opacity:.6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="avatar-wrap">
+  <img src="avatar.png" class="avatar">
+</div>
+
+<h1>MemeDev</h1>
+<div class="handle">@wyjebongow95561</div>
+
+<div class="bio">
+Probably deploying another memecoin right now 🐸🚀
+</div>
+
+<div class="section">
+<h3>ABOUT</h3>
+<div class="about">
+Pepe-powered memecoin developer.<br>
+Clean contracts, fast deploys,<br>
+maximum memes.
+</div>
+</div>
+
+<div class="section">
+<h3>SKILLS</h3>
+<div class="skills">
+<span class="skill">Solidity</span>
+<span class="skill">ERC-20</span>
+<span class="skill">Memecoins</span>
+<span class="skill">DeFi Chaos</span>
+<span class="skill">Pepe Tech</span>
+</div>
+</div>
+
+<div class="section links">
+<h3>LINKS</h3>
+<a href="#" target="_blank">memedev.fun</a>
+<a href="https://x.com/wyjebongow95561" target="_blank">Twitter / X</a>
+<a href="#" target="_blank">Telegram</a>
+<a href="#" target="_blank">GitHub</a>
+</div>
+
+<div class="footer">
+🐸 memedev.fun • MemeDev
+</div>
+
+</div>
+
+</body>
+</html>
